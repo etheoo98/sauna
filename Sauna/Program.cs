@@ -25,7 +25,11 @@ public static class Sauna
             try
             {
                 // Convert the Fahrenheit temperature to Celsius using the ConvertFahrToCel method
-                celsiusTemp = ConvertFahrToCel(fahrenheitTemp);
+                celsiusTemp = fahrenheitTemp != 0
+                    ? ConvertFahrToCel(fahrenheitTemp)
+                    :
+                    // Generate a random Fahrenheit temperature and convert it to Celsius
+                    ConvertFahrToCel();
 
                 // Determine the appropriate message to display based on the Celsius temperature
                 switch (celsiusTemp)
@@ -43,6 +47,7 @@ public static class Sauna
                         Console.WriteLine("It's way too hot!");
                         break;
                 }
+
                 // Display the current temperature in Celsius (Optional)
                 Console.WriteLine($"Current temperature in celsius: {celsiusTemp}\u00B0C");
             }
@@ -59,5 +64,13 @@ public static class Sauna
     {
         var celsius = (fahrenheit - 32) * 5.0 / 9.0;
         return Math.Round(celsius, 2);
+    }
+
+    // This method generates a random Fahrenheit temperature and converts it to Celsius
+    private static double ConvertFahrToCel()
+    {
+        var random = new Random();
+        var fahrenheit = random.Next(130, 190);
+        return ConvertFahrToCel(fahrenheit);
     }
 }
