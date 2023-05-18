@@ -58,7 +58,7 @@ public static class Sauna
             }
         } while (celsiusTemp is < 73 or > 77);
     }
-    
+
     // This method generates a random Fahrenheit temperature and converts it to Celsius
     private static double ConvertFahrToCel()
     {
