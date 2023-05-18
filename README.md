@@ -23,4 +23,4 @@ In this assignment, you must handle the following:
 Since the American can enter a temperature in Fahrenheit, this means a value of 167 °F (=75 °C), but of course they won't know about this, since it's their first sauna visit ever.
 
 ## Flowchart
-![alt text](https://github.com/etheoo98/sauna/blob/master/Sauna/Flowchart/Assignment%20Diagram.jpg?raw=true)
+![Application flowchart](https://github.com/etheoo98/sauna/blob/master/Sauna/Flowchart/Assignment%20Diagram.jpg?raw=true)
