@@ -4,7 +4,6 @@ public static class Sauna
 {
     private static void Main()
     {
-        // Initialize celsiusTemp to 0.0 so it's not uninitialized when we first use it
         double celsiusTemp;
 
         do
