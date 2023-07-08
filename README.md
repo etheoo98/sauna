@@ -24,3 +24,11 @@ Since the American can enter a temperature in Fahrenheit, this means a value of 
 
 ## Flowchart
 ![Application flowchart](https://github.com/etheoo98/sauna/blob/master/Sauna/Flowchart/Assignment%20flowchart.jpg?raw=true)
+
+## Assignment order
+1. [retirement-calculator](https://github.com/etheoo98/retirement-calculator "retirement-calculator")
+2. [rounding-numbers](https://github.com/etheoo98/rounding-numbers "rounding-numbers") / [rounding-numbers-v2](https://github.com/etheoo98/rounding-numbers-v2 "rounding-numbers-v2")
+3. [number-guesser](https://github.com/etheoo98/number-guesser "number-guesser")
+4. [**sauna**](https://github.com/etheoo98/sauna "sauna")
+5. [pseudo-keno](https://github.com/etheoo98/pseudo-keno "pseudo-keno")
+6. [the-bus](https://github.com/etheoo98/the-bus "the-bus")
